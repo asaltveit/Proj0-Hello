@@ -5,7 +5,7 @@ grading mechanisms.
 
 import configparser
 config = configparser.ConfigParser()
-config.read("credentials.ini")
+config.read("credentials.py")
 
 message = config["DEFAULT"]["message"]
 
